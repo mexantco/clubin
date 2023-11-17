@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "698969517289",
+    "project_id": "clubin-d61c8",
+    "storage_bucket": "clubin-d61c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698969517289:android:bad76f52c6ee523b52d478",
+        "android_client_info": {
+          "package_name": "com.clubin.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5_YdJBQ5JDvr6trvF_SskUhn14T-vePY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
