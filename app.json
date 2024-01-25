@@ -1,5 +1,25 @@
 {
   "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "0b45e588-5d84-4574-a732-aa1ec4d2ccc1"
+      }
+    },
+
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
+        }
+      ]
+    ],
     "name": "clubin",
     "slug": "clubin",
     "version": "1.0.0",
@@ -21,7 +41,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mexantco.clubin"
     },
     "web": {
       "favicon": "./assets/favicon.png"
